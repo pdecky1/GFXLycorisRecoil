@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@100,200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background: linear-gradient(69deg, #121012 0%, #42171A 100%);
+    
+}
+
+.section-1 {
+    height: 920px;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a {
+    font-size: 15;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    text-decoration-color: #42171A;
+    text-decoration-style: double;
+    color: #2E2E38;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.row-1 h1 {
+    font-size: 150px;
+    font-weight: 900;
+    margin-bottom: -60px;
+}
+.L {
+    font-size: 180px;
+    color: #F0555A;
+}
+
+.R {
+    font-size: 180px;
+    color: #00B4AA;
+}
+.japan {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+
+
+.chisato {
+    width: 452px;
+    left: 213px;
+    top: 39px;
+    position: relative;
+}
+
+.takina {
+    width: 440px;
+    left: 200px;
+    top: 39px;
+    position: relative;
+}
+
+
+.row-1 button {
+    margin-top: 60px;
+    width: 170px;
+    height: 55px;
+    background-color: #481A1D;
+    color: white;
+    border-radius: 14px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+    cursor: pointer;
+}
+
+.row-1 button:hover{
+    margin-top: 60px;
+    width: 170px;
+    height: 55px;
+    background-color: #2E2E38;
+    color: white;
+    border-radius: 14px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+    cursor: pointer;
+}
+
+.viewmore {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    top: 140px;
+}
+
+.viewmore p {
+    font-size: 15;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+
